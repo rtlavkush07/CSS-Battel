@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-image: url("image.png");
+ 
+
+}
+
+header .nav{
+    align-items: center;
+
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(31, 13, 58);
+    border-radius: 7px;
+
+}
+header .nav list{
+    display: flex;
+    margin-left: 20%;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+header .nav list ul{
+    margin: 50px;
+    font-size: 25px;
+}
+header .nav .main{
+    margin-left: 200px;
+}
+header .nav .main .left{
+    color: white;
+    margin-left: 2%;
+}
+header .nav .main .left input{
+    background-color: rgb(161, 122, 252);
+    border-radius: 5px;
+    height: 35px;
+} 
+::placeholder{
+    color: rgb(221, 219, 219);
+}
+header .nav .main .left button{
+background-color: rgb(250, 33, 221);
+padding: 3%;
+margin-top: 2%;
+margin-bottom: 7%;
+color: white;
+font: bold;
+border-radius: 10%;
+}
+header .nav .main{
+    display: flex;
+   
+}
+
+header .nav .main .right{
+    color: white;
+    margin-left: 30%;
+}
+
+header .nav .main .right .img{
+    display: flex;
+    
+}
+header .nav .main .right .img img{
+    height: 20px;
+    margin: 7px;
+}
